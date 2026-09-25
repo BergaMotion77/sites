@@ -6,6 +6,8 @@
 <title>Hotel para gatos em Porto Alegre | Hotel Mulher Gato, Santo Antônio</title>
 <meta name="description" content="Hotel exclusivo para gatos em Porto Alegre, bairro Santo Antônio. Diária de R$ 70. Nota 4,9 no Google com 74 avaliações. 1 vídeo do seu gato por dia no WhatsApp. Veja as regras e reserve pelo WhatsApp.">
 <meta name="theme-color" content="#0d1012">
+<meta name="color-scheme" content="dark">
+<meta name="supported-color-schemes" content="dark">
 <link rel="canonical" href="https://bergamotion77.github.io/sites/hotel-mulher-gato-v3sn/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
@@ -124,6 +126,38 @@ footer.site a{display:inline-block;padding:10px 0}
 .sticky .btn{width:100%}
 @media(min-width:900px){.sticky{display:none}body{padding-bottom:0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.gallery img,.btn{transition:none}}
+
+/* Legibilidade (principalmente no celular) */
+:root{color-scheme:dark;--mut:#d3d8d9}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-size:clamp(18px,1.6vw,20px);color:#f7f2e8}
+.eyebrow{font-size:.95rem;letter-spacing:.16em;color:var(--gold2);font-weight:600}
+header.top{background:rgba(13,16,18,.96);backdrop-filter:blur(8px);border-bottom:1px solid rgba(201,169,110,.3)}
+.btn{font-size:1.05rem;font-weight:700;letter-spacing:.04em;min-height:62px;padding:16px 30px}
+.btn-gold{color:#120d04!important;text-shadow:none;background:linear-gradient(135deg,#f0d9a6,#d4b378)}
+.btn-line{color:#f4e3bd;border-width:2px}
+.hero p.lead{font-size:clamp(1.2rem,3.4vw,1.5rem);color:#f4efe6}
+.hero-proof li{font-size:1.1rem;color:#f0ece2}
+.hero-proof b{font-size:2.3rem}
+.list li,.info p,.review,.stat span,details p,ol.steps p,.vcard li{color:#f0ece2}
+.list li{font-size:1.15rem}
+.info p{font-size:1.2rem}
+ol.steps h3{font-size:1.8rem}
+ol.steps p{font-size:1.2rem}
+.vcard h3{font-size:2rem}
+.vcard li{font-size:1.3rem;font-weight:500;line-height:1.4}
+.price{font-size:clamp(4.4rem,16vw,7.5rem)}
+.price small{font-size:1.05rem}
+.alert{font-size:clamp(1.5rem,5vw,2.2rem);font-weight:700;padding:26px 20px}
+.stat b{font-size:clamp(3rem,10vw,4rem)}
+.stat span{font-size:1.15rem}
+summary{font-size:clamp(1.45rem,4.5vw,1.8rem)}
+details p{font-size:1.2rem}
+.review{font-size:1.5rem}
+.review footer{font-size:.95rem;color:var(--gold2)}
+.videobox{max-width:420px;margin:30px auto 0;border:1px solid var(--gold);box-shadow:0 30px 70px rgba(0,0,0,.55);background:#000}
+.videobox video{display:block;width:100%;height:auto;background:#000}
+@media(max-width:700px){body{font-size:19px}.wrap{padding-inline:20px}h2{font-size:2.3rem}}
 </style>
 </head>
 <body>
@@ -153,6 +187,19 @@ footer.site a{display:inline-block;padding:10px 0}
         <li><a href="https://www.instagram.com/vivi_mulher_gato/" rel="noopener" target="_blank" style="text-decoration:none;color:inherit"><b>4,5 mil</b> seguidores no Instagram ↗</a></li>
         <li><b>1 vídeo</b> por dia no seu WhatsApp</li>
       </ul>
+    </div>
+  </section>
+
+  <section id="video" class="alt" aria-labelledby="video-t">
+    <div class="wrap center">
+      <span class="eyebrow">Sem enrolação</span>
+      <h2 id="video-t">Veja em menos de 40 segundos como funciona</h2>
+      <div class="videobox">
+        <video controls playsinline muted loop autoplay preload="metadata" poster="video/poster.jpg" width="720" height="1280" aria-label="Vídeo explicativo: como reservar, valores e regras do Hotel Mulher Gato">
+          <source src="video/explicativo.mp4" type="video/mp4">
+        </video>
+      </div>
+      <p style="margin-top:30px"><a class="btn btn-gold" href="https://wa.me/5551992843557?text=Ol%C3%A1!%20Vi%20o%20v%C3%ADdeo%20e%20quero%20reservar%20a%20estadia%20do%20meu%20gato." rel="noopener">Reservar a estadia do meu gato</a></p>
     </div>
   </section>
 
