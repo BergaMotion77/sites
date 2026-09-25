@@ -17,13 +17,13 @@
 <link rel="preload" as="image" href="img/gato-rosto.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Fira+Sans+Condensed:wght@400;500;600&display=swap">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"LocalBusiness","name":"Hotel Mulher Gato","description":"Hotel exclusivo para gatos em Porto Alegre","telephone":"+55 51 99284-3557","priceRange":"R$ 70 por dia","image":"https://bergamotion77.github.io/sites/hotel-mulher-gato-v3sn/img/gato-rosto.jpg","address":{"@type":"PostalAddress","addressLocality":"Porto Alegre","addressRegion":"RS","addressCountry":"BR"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"74"},"sameAs":["https://www.instagram.com/vivi_mulher_gato/","https://www.facebook.com/HotelMulherGato/"]}
 </script>
 <style>
 :root{--bg:#0d1012;--bg2:#13181b;--card:#171d21;--line:#2a3238;--ivory:#f4efe6;--mut:#aeb6b8;--gold:#c9a96e;--gold2:#e2c894;--teal:#4a9bb5;--wa:#25c26a;--on-wa:#062412;
---serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;--sans:"Jost",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+--serif:"Playfair Display",Georgia,"Times New Roman",serif;--sans:"Fira Sans Condensed","Arial Narrow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ivory);font-family:var(--sans);line-height:1.65;font-size:clamp(16px,1.4vw,18px);padding-bottom:86px;-webkit-font-smoothing:antialiased}
@@ -165,6 +165,18 @@ details p{font-size:1.2rem}
 .videobox{max-width:420px;margin:30px auto 0;border:1px solid var(--gold);box-shadow:0 30px 70px rgba(0,0,0,.55);background:#000}
 .videobox video{display:block;width:100%;height:auto;background:#000}
 @media(max-width:700px){body{font-size:19px}.wrap{padding-inline:20px}h2{font-size:2.3rem}}
+
+/* Fontes do panfleto: Playfair Display (títulos, itálico no nome) e Fira Sans Condensed (texto) */
+body{font-size:clamp(19px,1.7vw,21px);font-weight:400}
+h1{font-style:italic;font-weight:400;letter-spacing:-.01em}
+h2,h3{font-weight:500}
+.brand{font-style:italic;font-weight:500}
+.eyebrow{font-family:var(--serif);text-transform:uppercase;letter-spacing:.26em;font-weight:400;font-size:.95rem}
+.btn{font-family:var(--sans);font-weight:600;font-size:1.1rem;letter-spacing:.05em}
+.price,.stat b,.big,.hero-proof b,ol.steps li::before{font-family:var(--serif);font-weight:500;font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
+.review,summary,.gallery figcaption{font-family:var(--serif)}
+.vcard li,.info p,.list li,ol.steps p,details p{font-family:var(--sans);font-weight:400}
+@media(max-width:700px){body{font-size:20px}}
 </style>
 </head>
 <body>
