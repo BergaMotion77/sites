@@ -13,13 +13,13 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Hotel Mulher Gato | Hotel exclusivo para gatos em Porto Alegre">
 <meta property="og:description" content="Nota 4,9 no Google. Fotos e vídeos do seu gato no WhatsApp. Reserve pelo WhatsApp.">
-<meta property="og:image" content="https://bergamotion77.github.io/sites/hotel-mulher-gato-v3sn/img/hero.jpg">
-<link rel="preload" as="image" href="img/hero.jpg" fetchpriority="high">
+<meta property="og:image" content="https://bergamotion77.github.io/sites/hotel-mulher-gato-v3sn/img/gato-rosto.jpg">
+<link rel="preload" as="image" href="img/gato-rosto.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"Hotel Mulher Gato","description":"Hotel exclusivo para gatos em Porto Alegre","telephone":"+55 51 99284-3557","priceRange":"R$ 70 por dia","image":"https://bergamotion77.github.io/sites/hotel-mulher-gato-v3sn/img/hero.jpg","address":{"@type":"PostalAddress","addressLocality":"Porto Alegre","addressRegion":"RS","addressCountry":"BR"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"74"},"sameAs":["https://www.instagram.com/vivi_mulher_gato/","https://www.facebook.com/HotelMulherGato/"]}
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Hotel Mulher Gato","description":"Hotel exclusivo para gatos em Porto Alegre","telephone":"+55 51 99284-3557","priceRange":"R$ 70 por dia","image":"https://bergamotion77.github.io/sites/hotel-mulher-gato-v3sn/img/gato-rosto.jpg","address":{"@type":"PostalAddress","addressLocality":"Porto Alegre","addressRegion":"RS","addressCountry":"BR"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"74"},"sameAs":["https://www.instagram.com/vivi_mulher_gato/","https://www.facebook.com/HotelMulherGato/"]}
 </script>
 <style>
 :root{--bg:#0d1012;--bg2:#13181b;--card:#171d21;--line:#2a3238;--ivory:#f4efe6;--mut:#aeb6b8;--gold:#c9a96e;--gold2:#e2c894;--teal:#4a9bb5;--wa:#25c26a;--on-wa:#062412;
@@ -155,6 +155,13 @@ summary{font-size:clamp(1.45rem,4.5vw,1.8rem)}
 details p{font-size:1.2rem}
 .review{font-size:1.5rem}
 .review footer{font-size:.95rem;color:var(--gold2)}
+.hero{background:#090909}
+.hero img.bg{display:none}
+.hero img.cat{position:absolute;right:0;top:0;height:100%;width:auto;max-width:72%;object-fit:cover;object-position:left top;z-index:-2;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 34%);mask-image:linear-gradient(90deg,transparent 0,#000 34%)}
+.hero::after{background:linear-gradient(0deg,rgba(9,9,9,.95) 3%,rgba(9,9,9,.35) 42%,rgba(9,9,9,0) 70%),linear-gradient(90deg,rgba(9,9,9,.85) 0,rgba(9,9,9,.35) 45%,rgba(9,9,9,0) 70%)}
+@media(max-width:700px){.hero img.cat{height:64%;width:100%;max-width:100%;object-position:50% 18%;-webkit-mask-image:linear-gradient(0deg,transparent 0,#000 30%);mask-image:linear-gradient(0deg,transparent 0,#000 30%)}.hero::after{background:linear-gradient(0deg,var(--bg) 40%,rgba(9,9,9,0) 66%)}}
+.gallery figure{background:#090909}
+.gallery img{object-position:center 30%}
 .videobox{max-width:420px;margin:30px auto 0;border:1px solid var(--gold);box-shadow:0 30px 70px rgba(0,0,0,.55);background:#000}
 .videobox video{display:block;width:100%;height:auto;background:#000}
 @media(max-width:700px){body{font-size:19px}.wrap{padding-inline:20px}h2{font-size:2.3rem}}
@@ -171,7 +178,7 @@ details p{font-size:1.2rem}
 
 <main id="inicio">
   <section class="hero">
-    <img class="bg" src="img/hero.jpg" alt="Retrato de um gato cinza de olhos azuis, em close" fetchpriority="high" width="1280" height="874">
+    <img class="cat" src="img/gato-rosto.jpg" alt="Gato cinza de coleira dourada, mascote do Hotel Mulher Gato" fetchpriority="high" width="391" height="520">
     <div class="wrap">
       <span class="eyebrow">Hotel exclusivo para gatos · Porto Alegre</span>
       <h1>A estadia que seu gato <span class="gold">merece.</span></h1>
@@ -217,20 +224,20 @@ details p{font-size:1.2rem}
         </ul>
         <a class="btn btn-gold" href="https://wa.me/5551992843557?text=Ol%C3%A1!%20Quero%20conhecer%20a%20hospedagem%20para%20o%20meu%20gato." rel="noopener">Falar com a Vivi agora</a>
       </div>
-      <div class="media"><img src="img/siames.jpg" alt="Gato de olhos azuis descansando, retrato elegante" loading="lazy" width="1024" height="1280"></div>
+      <div class="media"><img src="img/gato-postura.jpg" alt="Gato cinza de coleira dourada sentado com elegância" loading="lazy" width="421" height="865"></div>
     </div>
   </section>
 
   <section class="alt" aria-labelledby="galeria">
     <div class="wrap">
       <div class="center">
-        <span class="eyebrow">Descanso, aconchego e brincadeira</span>
-        <h2 id="galeria">Tudo para o seu gato relaxar</h2>
+        <span class="eyebrow">O mascote do hotel</span>
+        <h2 id="galeria">Elegância em cada detalhe</h2>
       </div>
       <div class="gallery" style="margin-top:34px">
-        <figure><img src="img/descanso.jpg" alt="Gato dormindo tranquilo" loading="lazy" width="1280" height="914"><figcaption>Descanso</figcaption></figure>
-        <figure><img src="img/aconchego.jpg" alt="Gato cinza deitado numa caminha" loading="lazy" width="1280" height="853"><figcaption>Aconchego</figcaption></figure>
-        <figure><img src="img/brincar.jpg" alt="Gato curioso brincando ao ar livre" loading="lazy" width="1280" height="853"><figcaption>Brincadeira</figcaption></figure>
+        <figure><img src="img/gato-coleira.jpg" alt="Detalhe da coleira dourada com medalha do Hotel Mulher Gato" loading="lazy" width="341" height="300"><figcaption>Elegância</figcaption></figure>
+        <figure><img src="img/gato-postura.jpg" alt="Gato cinza em pose elegante" loading="lazy" width="421" height="865"><figcaption>Postura</figcaption></figure>
+        <figure><img src="img/gato-corpo.jpg" alt="Gato cinza olhando para o alto" loading="lazy" width="431" height="1215"><figcaption>Presença</figcaption></figure>
       </div>
     </div>
   </section>
@@ -376,7 +383,7 @@ details p{font-size:1.2rem}
   </section>
 
   <section class="final">
-    <img class="bg" src="img/retrato.jpg" alt="" loading="lazy" width="1280" height="853">
+    <img class="bg" src="img/gato-rosto.jpg" alt="" loading="lazy" width="391" height="520">
     <div class="wrap">
       <h2>Viaje tranquilo. <span class="gold">Seu gato está em boas patas.</span></h2>
       <p>Peça agora o orçamento e receba a resposta da Vivi no WhatsApp.</p>
@@ -387,7 +394,7 @@ details p{font-size:1.2rem}
 
 <footer class="site">
   <div class="wrap">
-    <span>Hotel Mulher Gato · Porto Alegre, RS · Imagens ilustrativas</span>
+    <span>Hotel Mulher Gato · Porto Alegre, RS · Hotel exclusivo para gatos</span>
     <span><a href="https://www.instagram.com/vivi_mulher_gato/" rel="noopener">Instagram @vivi_mulher_gato</a> · <a href="https://www.facebook.com/HotelMulherGato/" rel="noopener">Facebook</a></span>
   </div>
 </footer>
