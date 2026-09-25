@@ -180,7 +180,7 @@ h2,h3{font-weight:500}
 
 /* Texto maior + vídeo evidente */
 .media img{height:auto;object-position:center}.gallery img{height:100%;object-position:center}.split>*{min-width:0}
-@media(max-width:700px){.hero picture{top:64px;height:56svh}.hero img.cat{object-position:50% 0}}
+@media(max-width:700px){.hero picture{top:64px;bottom:auto;height:auto;aspect-ratio:1/1}.hero img.cat{object-position:50% 0;-webkit-mask-image:linear-gradient(0deg,transparent 0,#000 14%);mask-image:linear-gradient(0deg,transparent 0,#000 14%)}.hero .wrap{padding-top:calc(64px + 100vw - 24px)}.hero::after{background:linear-gradient(0deg,var(--bg) 46%,rgba(9,9,9,0) 62%)}}
 body{font-size:clamp(20px,1.8vw,22px)}
 @media(max-width:700px){body{font-size:21px}h2{font-size:2.45rem}}
 .eyebrow{font-size:1.05rem}
@@ -272,7 +272,7 @@ footer.site{font-size:1.1rem}
         </ul>
         <a class="btn btn-gold" href="https://wa.me/5551992843557?text=Ol%C3%A1!%20Quero%20conhecer%20a%20hospedagem%20para%20o%20meu%20gato." rel="noopener">Falar com a Vivi agora</a>
       </div>
-      <div class="media"><img src="img/experiencia.jpg" alt="Gato cinza de coleira dourada sentado com elegância" loading="lazy" width="1122" height="1402"></div>
+      <div class="media"><img src="img/experiencia.jpg" alt="Gato cinza de coleira dourada sentado com elegância" width="1122" height="1402"></div>
     </div>
   </section>
 
@@ -283,9 +283,9 @@ footer.site{font-size:1.1rem}
         <h2 id="galeria">Elegância em cada detalhe</h2>
       </div>
       <div class="gallery" style="margin-top:34px">
-        <figure><img src="img/galeria-coleira.jpg" alt="Detalhe da coleira dourada com medalha do Hotel Mulher Gato" loading="lazy" width="1448" height="1086"><figcaption>Elegância</figcaption></figure>
-        <figure><img src="img/galeria-descanso.jpg" alt="Gato cinza descansando sobre manta preta" loading="lazy" width="1448" height="1086"><figcaption>Postura</figcaption></figure>
-        <figure><img src="img/galeria-presenca.jpg" alt="Gato cinza olhando para o alto" loading="lazy" width="1000" height="750"><figcaption>Presença</figcaption></figure>
+        <figure><img src="img/galeria-coleira.jpg" alt="Detalhe da coleira dourada com medalha do Hotel Mulher Gato" width="1448" height="1086"><figcaption>Elegância</figcaption></figure>
+        <figure><img src="img/galeria-descanso.jpg" alt="Gato cinza descansando sobre manta preta" width="1448" height="1086"><figcaption>Postura</figcaption></figure>
+        <figure><img src="img/galeria-presenca.jpg" alt="Gato cinza olhando para o alto" width="1000" height="750"><figcaption>Presença</figcaption></figure>
       </div>
     </div>
   </section>
@@ -431,7 +431,7 @@ footer.site{font-size:1.1rem}
   </section>
 
   <section class="final">
-    <img class="bg" src="img/hero-desktop.jpg" alt="" loading="lazy" width="1672" height="941" style="object-position:75% 40%">
+    <img class="bg" src="img/hero-desktop.jpg" alt="" width="1672" height="941" style="object-position:75% 40%">
     <div class="wrap">
       <h2>Viaje tranquilo. <span class="gold">Seu gato está em boas patas.</span></h2>
       <p>Peça agora o orçamento e receba a resposta da Vivi no WhatsApp.</p>
