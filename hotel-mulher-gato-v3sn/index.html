@@ -44,12 +44,12 @@ a{color:var(--gold2)}
 .btn:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
 header.top{position:fixed;inset:0 0 auto 0;z-index:40;background:linear-gradient(180deg,rgba(13,16,18,.85),rgba(13,16,18,0))}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:72px}
-.brand{font-family:var(--serif);font-weight:700;font-size:1.35rem;color:var(--ivory);text-decoration:none;letter-spacing:.02em}
+.brand{white-space:nowrap;font-family:var(--serif);font-weight:700;font-size:1.35rem;color:var(--ivory);text-decoration:none;letter-spacing:.02em}
 .brand span{color:var(--gold)}
-nav{display:none;gap:26px}
+nav{display:none;gap:22px}
 nav a{color:var(--ivory);text-decoration:none;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85}
 nav a:hover{opacity:1;color:var(--gold2)}
-@media(min-width:900px){nav{display:flex}}
+@media(min-width:1180px){nav{display:flex}}
 header.top .btn{min-height:44px;padding:10px 20px}
 .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding-block:0;overflow:hidden;isolation:isolate}
 .hero picture,.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;z-index:-2}
